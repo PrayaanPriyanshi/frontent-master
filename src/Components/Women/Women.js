@@ -4,7 +4,7 @@ import './Women.css';
 function Women() {
   return (
     <div className='womenMain'>
-    <div className='womenHeader'><h1>Women</h1></div>
+    <div className='womenHeader'><h1>WOMEN</h1></div>
     <div className='WomenImages'>
     <div className='wImage1'>
     <img src='https://www.needledust.com/cdn/shop/files/Isla_A_400x.jpg?v=1707282544' alt='not found'></img>
@@ -61,24 +61,25 @@ function Women() {
     </div>
       
     <div className='womenBottom'>
-    <h3>ETHNIC ELEGANCE: MAKE A STATEMENT WITH OUR WOMEN'S FOOTWEAR COLLECTION</h3>
+    <h5>ETHNIC ELEGANCE: MAKE A STATEMENT WITH OUR WOMEN'S FOOTWEAR COLLECTION</h5>
     <p>Step into the world of Ethnic Elegance with our enchanting Everyday Ethnic Footwear Collection, designed for festive occasions, weddings, and everyday use. From the exquisite charm of ethnic juttis to the delightful comfort of designer sandals, and the confident stride in comfy heels, our Women’s Footwear Collection offers a wide array of styles. Embrace contemporary fashion with stylish mules, and indulge in the timeless allure of Kolhapuri sandals. Rooted in tradition, our footwear seamlessly blends cultural heritage with modern flair, ensuring each step is a statement of elegance. Each pair in our collection narrates a unique story, making your journey both stylish and culturally rich. Elevate your everyday look with the simplicity of ethnic designs, making a statement that's not just chic but also celebrates tradition. With our Ethnic Elegance Everyday Footwear Collection, enjoy the perfect blend of comfort, style, and cultural significance.</p>
-    <h3>CULTURAL GRACE UNLEASHED: ETHNIC JUTTIS BY NEEDLEDUST</h3>
+    <h5>CULTURAL GRACE UNLEASHED: ETHNIC JUTTIS BY NEEDLEDUST</h5>
     <p>Step into cultural grace with our exquisite Ethnic Juttis collection at Needledust. Each pair is a masterpiece, meticulously handcrafted to celebrate tradition and elevate your style. Whether adorned with vibrant embroidery or reflecting intricate patterns, Needledust's handcrafted Juttis add a touch of heritage to your every step. Designed for women who appreciate the richness of cultural aesthetics, these Juttis are perfect for weddings, festive occasions, and daily wear. Embrace the charm of tradition without compromising on comfort, as each pair from Needledust promises a unique blend of style and ease. With Our Premium Juttis, make a statement that resonates with the cultural significance of each step.</p>
-    <h3>EMBRACE STYLE AND COMFORT WITH WOMEN'S COMFY HEELS</h3>
+    <h5>EMBRACE STYLE AND COMFORT WITH WOMEN'S COMFY HEELS</h5>
     <p>Discover the perfect blend of style and comfort with our exclusive collection of Comfy Heels at Needledust. Crafted for women who value both fashion and ease, these heels are the epitome of versatility, suitable for any occasion. From weddings to everyday use, our Comfy Heels for women ensure a confident stride without compromising on comfort. Each pair is meticulously crafted with precision, promising all-day comfort while elevating your overall look. Step into the world of Stylish Heels, where every pair is a statement of sophistication, providing the perfect fusion of fashion and everyday functionality. Redefine your style with Needledust's Women's Comfy Heels.</p>
-    <h3>UNLEASH YOUR GLAMOUR WITH DESIGNER SANDALS</h3>
+    <h5>UNLEASH YOUR GLAMOUR WITH DESIGNER SANDALS</h5>
     <p>Discover sophistication in every step with our Women's Footwear collection at Needledust, featuring Designer Sandals that effortlessly combine style and comfort. From chic embellishments to modern silhouettes, Needledust's Designer Sandals are crafted for the contemporary woman. Each pair is a testament to meticulous design, ensuring you make a stylish impact at weddings, festive gatherings, and any event. Perfect for daily wear, Our Sandals for women redefine elegance. Elevate your wardrobe with these statement pieces that celebrate the fusion of fashion-forward trends and timeless charm. With Needledust, step into the world of luxury Sandals and experience the epitome of luxurious and comfortable footwear.</p>
-    <h3>VERSATILE CHIC: EMBRACE MODERN SOPHISTICATION WITH STYLISH MULES</h3>
+    <h5>VERSATILE CHIC: EMBRACE MODERN SOPHISTICATION WITH STYLISH MULES</h5>
     <p>Experience chic versatility with Needledust's Stylish Mules collection. Crafted for the modern woman who juggles various roles, these mules effortlessly combine style and comfort. From everyday use to special occasions, these stylish slip-ons add a touch of glamour to your ensemble. The carefully chosen materials and thoughtful design make Our Embroidered Mules the go-to choice for women who appreciate both elegance and convenience. Step into the day with confidence, knowing that each pair reflects your unique style and adapts seamlessly to any setting. Embrace the trendsetting appeal of our Stylish Mules for women, defining fashion with every step.</p>
-    <h3>TIMELESS ELEGANCE: KOLHAPURI SANDALS THAT SPEAK TRADITION</h3>
+    <h5>TIMELESS ELEGANCE: KOLHAPURI SANDALS THAT SPEAK TRADITION</h5>
     <p>Celebrate tradition with Needledust's Kolhapuri Sandals collection, a tribute to cultural heritage and timeless elegance. Each pair is a harmonious blend of craftsmanship and style, making them ideal for both festive occasions and casual outings. The intricate detailing and rich textures of our Kolhapuri Sandals add a distinctive charm to your look. Whether attending a wedding or enjoying everyday activities, these sandals ensure that you carry the spirit of tradition with grace. Slip into the comfort and cultural richness of Our Stylish Kolhapuri Sandals, where every step becomes a journey through heritage and fashion.</p><br></br><p>In conclusion, Needledust's Women's Footwear Collection epitomises a perfect blend of tradition and modernity, catering to every occasion. From the cultural grace of Ethnic Juttis to the timeless elegance of Kolhapuri Sandals, each pair narrates a unique story. The enchanting Everyday Ethnic Footwear Collection celebrates festivities, weddings, and daily wear, making every step a statement of elegance. Comfy Heels redefine versatility with style and comfort, while Designer Sandals embody sophistication for weddings and any event. Stylish Mules offer chic versatility for modern women. Step into timeless elegance with Needledust, where each pair reflects glamour, tradition, and contemporary fashion.</p>
-    <h3>POPULAR SEARCHES</h3>
+    <h5>POPULAR SEARCHES</h5>
     <p>Pink Juttis | Leather Jutti | Multicolour Jutti | Casual Jutti | Embroidered Mules | Premium Heels For Women | Punjabi Jutti For Women | Designer Jutti For Men | Best Selling Juttis | Office Sandals | Designer Sandals For Women | Bridal Jutti | Bridal Sandals | Bridesmaid Accessories | Party Wear Jutti | Designer Jutti | Ethnic Jutti | Golden Jutti | Black Juttis | Bridal Sandals | Office Sandals | Embroidered Mules</p>
     </div>
    
    
     </div>
+    
   )
 }
 

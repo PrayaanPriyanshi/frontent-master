@@ -1,5 +1,6 @@
 .celMain {
     padding: 20px;
+    margin-top: 50px;
   }
   
   .celHeader {
@@ -9,6 +10,7 @@
   .celHeader h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: normal;
   }
   
   .celImages {

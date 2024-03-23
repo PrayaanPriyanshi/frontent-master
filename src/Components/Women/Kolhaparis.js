@@ -3,7 +3,7 @@ import './Kolhaparis.css'
 function Kolhaparis() {
   return (
     <div className='kolhaMain'>
-    <div className='kolhaHeader'><h1>Women</h1></div>
+    <div className='kolhaHeader'><h1>KOLHAPAIRS</h1></div>
     <div className='kolhaImages'>
     <div className='kolhaImage1'>
     <img src='https://www.needledust.com/cdn/shop/files/Fiesta_h_200x.jpg?v=1689688619' alt='not found'></img>
@@ -18,25 +18,7 @@ function Kolhaparis() {
     <img src='https://www.needledust.com/cdn/shop/files/DSC0066_200x.jpg?v=1697435889' alt='image not found'></img>
     <img src='https://www.needledust.com/cdn/shop/files/DSC0254_200x.jpg?v=1697432949' alt='not found'></img>
     <img src='https://www.needledust.com/cdn/shop/files/NiloferKohlapair_1_799e8dd5-93b7-4d39-ba03-cbf9f378cf0e_200x.jpg?v=1691575474' alt='not found'></img>
-    <img src='' alt='not found'></img>
-    <img src='' alt='not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-
-    <img src='' alt='not found'></img>
-    <img src='' alt='not found'></img>
-    <img src='' alt='not found'></img>
-    <img src='' alt='not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
-    <img src='' alt='image not found'></img>
+  
 
 
    

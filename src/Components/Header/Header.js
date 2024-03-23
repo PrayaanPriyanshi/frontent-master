@@ -105,7 +105,10 @@ function Header() {
       <Link to="/celebrities">
       <span>Celebrities</span>
     </Link>
-        <img src='https://sandbyshirin.com/cdn/shop/files/SAN_200x.png?v=1614949992' alt='not found' />
+    <a href="https://sandbyshirin.com/">
+    <img src='https://sandbyshirin.com/cdn/shop/files/SAN_200x.png?v=1614949992' alt='not found' />
+  </a>
+  
       </div>
     </div>
   );

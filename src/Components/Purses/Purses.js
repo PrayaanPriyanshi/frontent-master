@@ -3,7 +3,7 @@ import './Purses.css';
 function Purses() {
     return (
     <div className='purseMain'>
-    <div className='purseHeader'><h1>Purses</h1></div>
+    <div className='purseHeader'><h1>PURSES</h1></div>
     <div className='purseImages'>
     <div className='pImage1'>
     <img src='https://www.needledust.com/cdn/shop/files/DSC0052_400x.jpg?v=1697825058' alt='not found'></img>

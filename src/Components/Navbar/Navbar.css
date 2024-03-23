@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 30px;
 }
 
 .navbarParagraph {
@@ -22,8 +23,6 @@
   margin-left: 10px; /* Adjust margin as needed */
   cursor: pointer;
   color: white; /* Adjust color as needed */
-}
-
-.shopHere:hover {
   text-decoration: underline;
 }
+

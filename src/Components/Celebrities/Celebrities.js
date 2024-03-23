@@ -3,7 +3,7 @@ import './Celebrities.css';
 function Celebrities() {
   return (
     <div className='celMain'>
-    <div className='celHeader'><h1>Women</h1></div>
+    <div className='celHeader'><h1>CELEBRITIES</h1></div>
     <div className='celImages'>
     <div className='cImage1'>
     <img src='https://cdn.shopify.com/s/files/1/0467/1573/2136/files/meera_apoor.jpg?v=1710152640' alt='not found'></img>

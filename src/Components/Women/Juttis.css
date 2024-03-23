@@ -1,5 +1,6 @@
 .juttisMain {
     padding: 20px;
+    margin-top: 50px;
   }
   
   .juttisHeader {
@@ -9,6 +10,7 @@
   .juttisHeader h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: normal;
   }
   
   .juttisImages {
@@ -33,4 +35,26 @@
     cursor: pointer;
   }
 
+
+  .juttisBottom {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: lighter; /* Adjust the font weight as needed */
+  }
+  
+  .juttisBottom h5 {
+    word-spacing: 7px;
+   font-weight: normal;
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+  
+  .juttisBottom p {
+    overflow-wrap: break-word;
+    margin-bottom: 20px; /* Add margin below paragraphs */
+    line-height: 1.5; /* Set line height for paragraphs */
+  }
+  
+
+ 
  

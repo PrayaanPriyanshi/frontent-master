@@ -1,5 +1,6 @@
 .viewMain {
     padding: 20px;
+    margin-top: 30px;
   }
   
   .viewHeader {
@@ -9,6 +10,7 @@
   .viewHeader h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: normal;
   }
   
   .viewImages {

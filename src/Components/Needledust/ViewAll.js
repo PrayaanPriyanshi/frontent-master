@@ -3,7 +3,7 @@ import './ViewAll.css';
 function ViewAll() {
   return (
     <div className='viewMain'>
-    <div className='viewHeader'><h1>View All</h1></div>
+    <div className='viewHeader'><h1>VIEW ALL</h1></div>
     <div className='viewImages'>
     <div className='viewImage1'>
     <img src='https://www.needledust.com/cdn/shop/files/Isla_A_400x.jpg?v=1707282544' alt='not found'></img>

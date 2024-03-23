@@ -13,15 +13,21 @@
 .headerLeft img {
   height: 50px;
   width: auto;
+ text-align: center;
+ margin-left: 600px;
 }
 
 .headerRight {
   display: flex;
   align-items: center;
+  margin-right: 40px;
 }
 
 .headerRight1 label {
   margin-right: 10px;
+}
+.headerRight1 {
+margin-right: 30px;
 }
 
 .headerBottom {
@@ -38,9 +44,23 @@
 }
 
 .headerBottom img {
-  height: 50px;
+  height: 33px;
   width: auto;
 }
+
+.headerRight .headerLogo1,
+.headerRight .headerLogo2
+  {
+  margin-right: 20px; /* Aap apne hisaab se margin ko adjust kar sakte hain */
+
+}
+
+.headerLogo1 svg, .headerLogo2 svg, .headerLogo3 svg {
+  width: 25px; /* Apne hisaab se width ko adjust karein */
+  height: 25px; /* Apne hisaab se height ko adjust karein */
+}
+
+
 
 
 
@@ -130,3 +150,21 @@
   color: black;
 }
 
+
+
+/* Style for menu */
+.menuGifting {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for submenu */
+.submenuGifting {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1;
+}

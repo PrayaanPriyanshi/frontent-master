@@ -24,7 +24,7 @@ function App() {
         <Navbar />
         <Header />
         <Routes>
-        <Route path="/#" element={<Carousel></Carousel>} />
+          <Route path="/" element={<Carousel />} />
           <Route path="/women" element={<Women />} />
           <Route path="/needledust-x-abhinav-mishra" element={<Needledust />} />
           <Route path="/purses" element={<Purses />} />
@@ -33,12 +33,12 @@ function App() {
           <Route path="/gifting" element={<Gifting />} />
           <Route path="/celebrities" element={<Celebrities />} />
 
-          <Route path="/juttis" element={<Juttis></Juttis>} />
-          <Route path="/heels" element={<Heels></Heels>} />
-          <Route path="/kolha" element={<Kolhaparis></Kolhaparis>} />
-          <Route path="/sandals" element={<Sandals></Sandals>} />
-          <Route path="/mules" element={<Mules></Mules>} />
-          <Route path="/view" element={<ViewAll></ViewAll>} />
+          <Route path="/juttis" element={<Juttis />} />
+          <Route path="/heels" element={<Heels />} />
+          <Route path="/kolha" element={<Kolhaparis />} />
+          <Route path="/sandals" element={<Sandals />} />
+          <Route path="/mules" element={<Mules />} />
+          <Route path="/view" element={<ViewAll />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: center;
   }
-  
+ 
   .topMain img {
     max-width: 100%;
 
     height: auto;
+   ;
+    margin-bottom: 50px;
   }
   
   .bottomMain {
@@ -23,6 +25,29 @@
     height: auto;
     max-height: 380px;
   }
+
+
+  .manBottom {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: lighter; /* Adjust the font weight as needed */
+  }
+  
+  .manBottom h5 {
+    word-spacing: 7px;
+   font-weight: normal;
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+  
+  .manBottom p {
+    overflow-wrap: break-word;
+    margin-bottom: 20px; /* Add margin below paragraphs */
+    line-height: 1.5; /* Set line height for paragraphs */
+  }
+  
+
+ 
   
 
   

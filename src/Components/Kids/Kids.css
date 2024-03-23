@@ -1,10 +1,17 @@
+.kidsMain{
+margin-top: 50px;
+padding:20px ;
+}
+
 .kidsHeader {
     text-align: center;
+    font-weight: lighter;
   }
   
   .kidsHeader h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: normal;
   }
   
   .kidsImages {
@@ -20,7 +27,7 @@
   
   .kidsImages .kImage1 img {
     width: calc(25% - 60px); /* Adjusted width for 4 images per row with margin */
-    margin: 15px; /* Adjusted margin for spacing between images */
+    margin: 20px; /* Adjusted margin for spacing between images */
     transition: transform 0.3s ease-in-out;
   }
   .kidsImages .kImage1 img:hover {
@@ -28,3 +35,25 @@
     cursor: pointer;
   }
 
+
+  .kidsBottom {
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: lighter; /* Adjust the font weight as needed */
+  }
+  
+  .kidsBottom h5 {
+    word-spacing: 7px;
+   font-weight: normal;
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+  
+  .kidsBottom p {
+    overflow-wrap: break-word;
+    margin-bottom: 20px; /* Add margin below paragraphs */
+    line-height: 1.5; /* Set line height for paragraphs */
+  }
+  
+
+ 

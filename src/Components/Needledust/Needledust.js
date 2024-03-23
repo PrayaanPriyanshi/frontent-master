@@ -3,7 +3,7 @@ import './Needledust.css';
 function Needledust() {
   return (
     <div className='needMain'>
-    <div className='needHeader'><h1>Women</h1></div>
+    <div className='needHeader'><h1>NEEDLEDUST X ABHINAV MISHRA</h1></div>
     <div className='needImages'>
     <div className='nImage1'>
    <img src='https://www.needledust.com/cdn/shop/files/DSC0293_400x.jpg?v=1697436270' alt='image not found'></img>
