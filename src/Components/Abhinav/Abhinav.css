@@ -1,0 +1,62 @@
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+
+.image2{
+   margin-top: 100px; 
+    width:  1255px; /* Image takes full width of container */
+    height: 1250px; /* Maintain aspect ratio */
+}
+
+.text2 {
+    flex: 1; /* Text takes remaining space */
+    margin-top: -400px;
+    height: auto;
+    margin-left: 20px; /* Add some space between image and text */
+     text-align: justify;
+     margin-left: 155px; /* Add some space between image and text */
+    margin-right: 155px;
+    font-style: normal;
+    font-weight: 300;
+    
+    font-size: 25px;
+    color: #000;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  
+   
+  
+  }
+ 
+
+/* Ensure button and text remain centered on smaller screens */
+@media (max-width: 768px) {
+    .section {
+        align-items: flex-start;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}
+
+
+h2.SectionHeader__Heading.Heading.u-h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-top: 400px;
+    color:black;
+
+}
+.paragrap{
+
+    margin-right: 50px;
+    font-style:normal;
+    margin-inline:1px;
+}

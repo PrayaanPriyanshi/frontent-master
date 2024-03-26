@@ -1,0 +1,26 @@
+  .category {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .product {
+    display: inline-block;
+    margin: 45px;
+  }
+  .product img:hover{
+    width: 525px;
+    height:650px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer;
+  }
+  .product .price h4:hover {
+    margin-top: 5px;
+    font-weight: bold;
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer; 
+  }
+  .pname  {
+margin-top: 50px;
+  }
+  

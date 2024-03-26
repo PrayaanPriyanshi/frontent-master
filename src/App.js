@@ -16,6 +16,9 @@ import Sandals from './Components/Women/Sandals';
 import Mules from './Components/Women/Mules';
 import ViewAll from './Components/Needledust/ViewAll';
 import Carousel from './Components/Carousel/Carousel';
+import Footer from './Components/Footer/Footer';
+import './App.css';
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Carousel />} />
+          
           <Route path="/women" element={<Women />} />
           <Route path="/needledust-x-abhinav-mishra" element={<Needledust />} />
           <Route path="/purses" element={<Purses />} />
@@ -39,10 +43,11 @@ function App() {
           <Route path="/sandals" element={<Sandals />} />
           <Route path="/mules" element={<Mules />} />
           <Route path="/view" element={<ViewAll />} />
+         
         </Routes>
+       <Footer />
       </div>
     </BrowserRouter>
   );
 }
-
 export default App;

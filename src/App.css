@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#app-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+

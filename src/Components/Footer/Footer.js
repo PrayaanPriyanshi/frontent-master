@@ -25,7 +25,7 @@ function Footer() {
     <li>Contact Us</li>
     <li>care@needledust.com</li>
     <li>+919871511115</li>
-    <li>(11am t0 5pm|Mon-Fri</li>
+    <li>11am t0 5pm|Mon-Fri</li>
     <li></li>
   </ul></div>
    

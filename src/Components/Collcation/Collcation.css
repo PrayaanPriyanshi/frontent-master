@@ -1,0 +1,193 @@
+ .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  } 
+
+ 
+  .left {
+    
+    flex: 1;
+    text-align: center;
+  }
+  .left img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  .right {
+    flex: 1;
+    padding: 0 20px;
+  }
+  /* .right p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+   */
+   .right p{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: hsl(210deg 87% 36%) 0px 7px 0px 0px;
+    background-color: hsl(210deg 100% 44%);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 31ms cubic-bezier(.5, .7, .4, 1);
+   }
+   
+   button:before {
+    content: attr(alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    opacity: 1;
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(7px);
+    transition: 35ms cubic-bezier(.5, .7, .4, 1);
+   }
+   
+   button:hover:before {
+    transition: all .0s;
+    transform: translateY(100%);
+    opacity: 0;
+   }
+   
+   button i {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-style: normal;
+    transition: all 2s ease;
+    transform: translateY(-20px);
+    opacity: 0;
+   }
+   
+   button:hover i {
+    transition: all .2s ease;
+    transform: translateY(0px);
+    opacity: 1;
+   }
+   
+   button:hover i:nth-child(1) {
+    transition-delay: 0.045s;
+   }
+   
+   button:hover i:nth-child(2) {
+    transition-delay: calc(0.045s * 3);
+   }
+   
+   button:hover i:nth-child(3) {
+    transition-delay: calc(0.045s * 4);
+   }
+   
+   button:hover i:nth-child(4) {
+    transition-delay: calc(0.045s * 5);
+   }
+   
+   button:hover i:nth-child(6) {
+    transition-delay: calc(0.045s * 6);
+   }
+   
+   button:hover i:nth-child(7) {
+    transition-delay: calc(0.045s * 7);
+   }
+   
+   button:hover i:nth-child(8) {
+    transition-delay: calc(0.045s * 8);
+   }
+   
+   button:hover i:nth-child(9) {
+    transition-delay: calc(0.045s * 9);
+   }
+   
+   button:hover i:nth-child(10) {
+    transition-delay: calc(0.045s * 10);
+   }
+     /* aline the  */
+        .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; /* Center-align button */
+  }
+  
+  .container {
+      display: flex;
+      
+      flex-wrap: wrap; /* Ensure content wraps properly */
+      align-items: center;
+      justify-content: flex-start; /* Align container to the left */
+      max-width: 100%; /* Ensure container doesn't exceed viewport width */
+  }
+  
+  .image {
+     margin-top: 100px; 
+      width:  1255px; /* Image takes full width of container */
+      height: 1250px; /* Maintain aspect ratio */
+  }
+  
+  .text {
+      flex: 1; /* Text takes remaining space */
+      margin-top: -400px;
+      
+      margin-left: 20px; /* Add some space between image and text */
+       text-align: justify;
+       margin-left: 155px; /* Add some space between image and text */
+      margin-right: 155px;
+      font-style: normal;
+      font-weight: 300;
+      
+      font-size: 25px;
+      color: #000;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    
+     
+    
+    }
+    h1 {
+      
+      color: #c28b2e;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+
+    }
+  
+  /* Ensure button and text remain centered on smaller screens */
+  @media (max-width: 768px) {
+      .section {
+          align-items: flex-start;
+      }
+  
+      .container {
+          justify-content: center;
+      }
+  }
+     

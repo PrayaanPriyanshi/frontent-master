@@ -1,0 +1,19 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height divided by width) */
+  overflow: hidden;
+  border-radius: 8px; /* Adjust as needed for frame outline */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a nice frame */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px; /* Match the container's border-radius for consistency */
+}
